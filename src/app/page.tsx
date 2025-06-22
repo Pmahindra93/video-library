@@ -1,11 +1,14 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import Link from 'next/link'
 import { PlusIcon } from '@heroicons/react/24/outline'
 import { useVideos } from '@/hooks/use-video'
+import { useVideoSearch } from '@/hooks/use-search'
 import { VideoGrid } from '@/components/video-grid'
 import { SortControls } from '@/components/sort-controls'
+import { SearchBar } from '@/components/search-bar'
+import { SearchResults } from '@/components/search-results'
 import { LoadingSpinner } from '@/components/loading-spinner'
 import { ErrorMessage } from '@/components/error-message'
 import { ThemeToggle } from '@/components/theme-toggle'
@@ -14,7 +17,13 @@ import { Providers } from './providers'
 
 function HomePage() {
   const [sortBy, setSortBy] = useState<SortOption>(undefined)
+  const [searchQuery, setSearchQuery] = useState('')
   const { data: videos, isLoading, error, refetch } = useVideos(sortBy)
+  const { filteredVideos, hasResults, totalResults, isSearching } = useVideoSearch(videos || [], searchQuery)
+
+  const handleSearch = useCallback((query: string) => {
+    setSearchQuery(query)
+  }, [])
 
   if (isLoading) {
     return (
@@ -63,10 +72,19 @@ function HomePage() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-8">
-        <div className="mb-8">
-          <SortControls sortBy={sortBy} onSortChange={setSortBy} />
+        <div className="mb-8 space-y-6">
+          <SearchBar onSearch={handleSearch} />
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <SearchResults
+              isSearching={isSearching}
+              searchQuery={searchQuery}
+              totalResults={totalResults}
+              hasResults={hasResults}
+            />
+            <SortControls sortBy={sortBy} onSortChange={setSortBy} />
+          </div>
         </div>
-        <VideoGrid videos={videos || []} />
+        <VideoGrid videos={filteredVideos} />
       </main>
     </div>
   )
