@@ -2,7 +2,7 @@
 
 A modern, full-stack TypeScript video library application with dark/light theme support, built with Next.js 14 and enhanced UI components.
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Next.js 14** with App Router - Modern React framework
@@ -29,23 +29,23 @@ A modern, full-stack TypeScript video library application with dark/light theme 
 ## 📋 Features
 
 ### Modern UI/UX
-- **🌙 Dark/Light Theme** - Toggle between themes with system preference detection
-- **📱 Responsive Design** - Mobile-first design that works on all devices
-- **✨ Smooth Animations** - Hover effects, transitions, and loading states
-- **♿ Accessibility** - Full keyboard navigation and screen reader support
-- **🎨 Modern Components** - Enhanced with Headless UI for better UX
+- ** Dark/Light Theme** - Toggle between themes with system preference detection
+- ** Responsive Design** - Mobile-first design that works on all devices
+- ** Smooth Animations** - Hover effects, transitions, and loading states
+- ** Accessibility** - Full keyboard navigation and screen reader support
+- ** Modern Components** - Enhanced with Headless UI for better UX
 
 ### Video Management
-- **📺 Video Grid** - Responsive grid with enhanced video cards
-- **🔍 Sorting** - Sort by creation date with elegant dropdown
-- **🏷️ Tag System** - Dynamic tag management with visual indicators
-- **⏱️ Rich Metadata** - Display duration, views, creation date with icons
-- **🖼️ Thumbnails** - Video thumbnails with hover play button overlay
+- ** Video Grid** - Responsive grid with enhanced video cards
+- ** Sorting** - Sort by creation date with elegant dropdown
+- ** Tag System** - Dynamic tag management with visual indicators
+- ** Rich Metadata** - Display duration, views, creation date with icons
+- ** Thumbnails** - Video thumbnails with hover play button overlay
 
 ### Form & Validation
-- **✅ Smart Validation** - Client and server-side validation
-- **💫 Real-time Feedback** - Instant error messages and form states
-- **🔄 Loading States** - Smooth loading indicators throughout
+- ** Smart Validation** - Client and server-side validation
+- ** Real-time Feedback** - Instant error messages and form states
+- ** Loading States** - Smooth loading indicators throughout
 
 ## 🛠️ Setup Instructions
 
@@ -79,7 +79,7 @@ npm run lint     # Run ESLint
 npm run test     # Run tests
 ```
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 ### Performance & Architecture
 - **Database Migration** - Replace JSON storage with PostgreSQL/MongoDB for better scalability
@@ -106,7 +106,7 @@ npm run test     # Run tests
 support
 - **State Management** - Consider Zustand or Redux for complex state scenarios
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 video-library/
@@ -126,7 +126,7 @@ video-library/
 └── [config files]             # TypeScript, Tailwind, Jest
 ```
 
-## 🎨 Theme Support
+##  Theme Support
 
 The application includes comprehensive dark/light theme support:
 - **Automatic Detection** - Follows system preference by default
