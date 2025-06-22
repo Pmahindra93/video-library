@@ -3,452 +3,664 @@
     {
       "id": "v-001",
       "title": "Introduction to VEED's Video Editor",
-      "thumbnail_url": "https://picsum.photos/seed/video1/300/200",
       "created_at": "2025-01-15T14:23:11Z",
+      "tags": [
+        "tutorial",
+        "beginner",
+        "video editing"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video1/300/200",
       "duration": 184,
-      "views": 12453,
-      "tags": ["tutorial", "beginner", "video editing"]
+      "views": 12453
     },
     {
       "id": "v-002",
       "title": "Advanced Color Correction Techniques",
-      "thumbnail_url": "https://picsum.photos/seed/video2/300/200",
       "created_at": "2025-01-10T09:45:22Z",
+      "tags": [
+        "tutorial",
+        "advanced",
+        "color grading"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video2/300/200",
       "duration": 842,
-      "views": 8741,
-      "tags": ["tutorial", "advanced", "color grading"]
+      "views": 8741
     },
     {
       "id": "v-003",
       "title": "Creating Engaging Social Media Videos",
-      "thumbnail_url": "https://picsum.photos/seed/video3/300/200",
       "created_at": "2025-01-22T16:12:05Z",
+      "tags": [
+        "social media",
+        "marketing",
+        "engagement"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video3/300/200",
       "duration": 367,
-      "views": 32156,
-      "tags": ["social media", "marketing", "engagement"]
+      "views": 32156
     },
     {
       "id": "v-004",
       "title": "How to Add Subtitles Automatically",
-      "thumbnail_url": "https://picsum.photos/seed/video4/300/200",
       "created_at": "2024-12-18T11:34:50Z",
+      "tags": [
+        "tutorial",
+        "subtitles",
+        "accessibility"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video4/300/200",
       "duration": 245,
-      "views": 18965,
-      "tags": ["tutorial", "subtitles", "accessibility"]
+      "views": 18965
     },
     {
       "id": "v-005",
       "title": "Video SEO Fundamentals",
-      "thumbnail_url": "https://picsum.photos/seed/video5/300/200",
       "created_at": "2024-12-05T08:19:33Z",
+      "tags": [
+        "SEO",
+        "marketing",
+        "discoverability"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video5/300/200",
       "duration": 654,
-      "views": 7432,
-      "tags": ["SEO", "marketing", "discoverability"]
+      "views": 7432
     },
     {
       "id": "v-006",
       "title": "Creating Professional Transitions",
-      "thumbnail_url": "https://picsum.photos/seed/video6/300/200",
       "created_at": "2025-02-01T15:27:18Z",
+      "tags": [
+        "transitions",
+        "professional",
+        "effects"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video6/300/200",
       "duration": 421,
-      "views": 9854,
-      "tags": ["transitions", "professional", "effects"]
+      "views": 9854
     },
     {
       "id": "v-007",
       "title": "Mobile Video Editing Tips",
-      "thumbnail_url": "https://picsum.photos/seed/video7/300/200",
       "created_at": "2025-01-28T12:48:29Z",
+      "tags": [
+        "mobile",
+        "tips",
+        "on-the-go"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video7/300/200",
       "duration": 318,
-      "views": 15789,
-      "tags": ["mobile", "tips", "on-the-go"]
+      "views": 15789
     },
     {
       "id": "v-008",
       "title": "Optimizing Video for Different Platforms",
-      "thumbnail_url": "https://picsum.photos/seed/video8/300/200",
       "created_at": "2024-11-30T10:15:42Z",
+      "tags": [
+        "optimization",
+        "platforms",
+        "export settings"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video8/300/200",
       "duration": 498,
-      "views": 11243,
-      "tags": ["optimization", "platforms", "export settings"]
+      "views": 11243
     },
     {
       "id": "v-009",
       "title": "Creating Animated Text Effects",
-      "thumbnail_url": "https://picsum.photos/seed/video9/300/200",
       "created_at": "2025-02-10T17:36:07Z",
+      "tags": [
+        "animation",
+        "text effects",
+        "motion graphics"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video9/300/200",
       "duration": 275,
-      "views": 21567,
-      "tags": ["animation", "text effects", "motion graphics"]
+      "views": 21567
     },
     {
       "id": "v-010",
       "title": "Green Screen Editing Masterclass",
-      "thumbnail_url": "https://picsum.photos/seed/video10/300/200",
       "created_at": "2025-01-05T13:52:31Z",
+      "tags": [
+        "green screen",
+        "chroma key",
+        "advanced"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video10/300/200",
       "duration": 732,
-      "views": 8976,
-      "tags": ["green screen", "chroma key", "advanced"]
+      "views": 8976
     },
     {
       "id": "v-011",
       "title": "Audio Mixing for Video Content",
-      "thumbnail_url": "https://picsum.photos/seed/video11/300/200",
       "created_at": "2024-12-12T09:24:15Z",
+      "tags": [
+        "audio",
+        "mixing",
+        "sound design"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video11/300/200",
       "duration": 547,
-      "views": 6543,
-      "tags": ["audio", "mixing", "sound design"]
+      "views": 6543
     },
     {
       "id": "v-012",
       "title": "Creating Viral Short-Form Content",
-      "thumbnail_url": "https://picsum.photos/seed/video12/300/200",
       "created_at": "2025-02-15T11:05:38Z",
+      "tags": [
+        "short-form",
+        "viral",
+        "trends"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video12/300/200",
       "duration": 189,
-      "views": 42365,
-      "tags": ["short-form", "viral", "trends"]
+      "views": 42365
     },
     {
       "id": "v-013",
       "title": "Video Production on a Budget",
-      "thumbnail_url": "https://picsum.photos/seed/video13/300/200",
       "created_at": "2024-11-20T16:48:22Z",
+      "tags": [
+        "budget",
+        "production",
+        "tips"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video13/300/200",
       "duration": 612,
-      "views": 15678,
-      "tags": ["budget", "production", "tips"]
+      "views": 15678
     },
     {
       "id": "v-014",
       "title": "Using AI for Video Enhancement",
-      "thumbnail_url": "https://picsum.photos/seed/video14/300/200",
       "created_at": "2025-02-05T14:37:19Z",
+      "tags": [
+        "AI",
+        "enhancement",
+        "technology"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video14/300/200",
       "duration": 426,
-      "views": 28954,
-      "tags": ["AI", "enhancement", "technology"]
+      "views": 28954
     },
     {
       "id": "v-015",
       "title": "Creating Stunning Video Intros",
-      "thumbnail_url": "https://picsum.photos/seed/video15/300/200",
       "created_at": "2025-01-18T10:29:45Z",
+      "tags": [
+        "intros",
+        "branding",
+        "first impressions"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video15/300/200",
       "duration": 284,
-      "views": 19876,
-      "tags": ["intros", "branding", "first impressions"]
+      "views": 19876
     },
     {
       "id": "v-016",
       "title": "Video Compression Explained",
-      "thumbnail_url": "https://picsum.photos/seed/video16/300/200",
       "created_at": "2024-12-03T08:56:12Z",
+      "tags": [
+        "compression",
+        "technical",
+        "file size"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video16/300/200",
       "duration": 357,
-      "views": 5432,
-      "tags": ["compression", "technical", "file size"]
+      "views": 5432
     },
     {
       "id": "v-017",
       "title": "Creating Educational Video Content",
-      "thumbnail_url": "https://picsum.photos/seed/video17/300/200",
       "created_at": "2024-11-15T13:41:27Z",
+      "tags": [
+        "educational",
+        "e-learning",
+        "instructional"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video17/300/200",
       "duration": 529,
-      "views": 12876,
-      "tags": ["educational", "e-learning", "instructional"]
+      "views": 12876
     },
     {
       "id": "v-018",
       "title": "Advanced Timeline Editing Techniques",
-      "thumbnail_url": "https://picsum.photos/seed/video18/300/200",
       "created_at": "2025-01-25T15:18:33Z",
+      "tags": [
+        "timeline",
+        "advanced",
+        "editing"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video18/300/200",
       "duration": 615,
-      "views": 7654,
-      "tags": ["timeline", "advanced", "editing"]
+      "views": 7654
     },
     {
       "id": "v-019",
       "title": "Creating Cinematic Video Looks",
-      "thumbnail_url": "https://picsum.photos/seed/video19/300/200",
       "created_at": "2025-02-08T12:07:54Z",
+      "tags": [
+        "cinematic",
+        "film look",
+        "color grading"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video19/300/200",
       "duration": 478,
-      "views": 23451,
-      "tags": ["cinematic", "film look", "color grading"]
+      "views": 23451
     },
     {
       "id": "v-020",
       "title": "Video Editing Keyboard Shortcuts",
-      "thumbnail_url": "https://picsum.photos/seed/video20/300/200",
       "created_at": "2024-12-28T09:36:11Z",
+      "tags": [
+        "shortcuts",
+        "productivity",
+        "workflow"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video20/300/200",
       "duration": 196,
-      "views": 14532,
-      "tags": ["shortcuts", "productivity", "workflow"]
+      "views": 14532
     },
     {
       "id": "v-021",
       "title": "Creating Compelling Video Ads",
-      "thumbnail_url": "https://picsum.photos/seed/video21/300/200",
       "created_at": "2025-01-12T14:53:26Z",
+      "tags": [
+        "advertising",
+        "marketing",
+        "conversion"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video21/300/200",
       "duration": 387,
-      "views": 17865,
-      "tags": ["advertising", "marketing", "conversion"]
+      "views": 17865
     },
     {
       "id": "v-022",
       "title": "Motion Tracking Fundamentals",
-      "thumbnail_url": "https://picsum.photos/seed/video22/300/200",
       "created_at": "2024-12-21T11:29:48Z",
+      "tags": [
+        "motion tracking",
+        "effects",
+        "advanced"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video22/300/200",
       "duration": 564,
-      "views": 9876,
-      "tags": ["motion tracking", "effects", "advanced"]
+      "views": 9876
     },
     {
       "id": "v-023",
       "title": "Effective Video Storytelling",
-      "thumbnail_url": "https://picsum.photos/seed/video23/300/200",
       "created_at": "2025-02-12T16:34:19Z",
+      "tags": [
+        "storytelling",
+        "narrative",
+        "engagement"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video23/300/200",
       "duration": 723,
-      "views": 31452,
-      "tags": ["storytelling", "narrative", "engagement"]
+      "views": 31452
     },
     {
       "id": "v-024",
       "title": "Video Aspect Ratios Explained",
-      "thumbnail_url": "https://picsum.photos/seed/video24/300/200",
       "created_at": "2024-11-25T10:42:37Z",
+      "tags": [
+        "aspect ratios",
+        "technical",
+        "composition"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video24/300/200",
       "duration": 247,
-      "views": 8765,
-      "tags": ["aspect ratios", "technical", "composition"]
+      "views": 8765
     },
     {
       "id": "v-025",
       "title": "Building a YouTube Channel Strategy",
-      "thumbnail_url": "https://picsum.photos/seed/video25/300/200",
       "created_at": "2025-01-30T13:18:52Z",
+      "tags": [
+        "YouTube",
+        "strategy",
+        "growth"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video25/300/200",
       "duration": 685,
-      "views": 27654,
-      "tags": ["YouTube", "strategy", "growth"]
+      "views": 27654
     },
     {
       "id": "v-026",
       "title": "Video Editing for Beginners",
-      "thumbnail_url": "https://picsum.photos/seed/video26/300/200",
       "created_at": "2024-12-08T15:27:14Z",
+      "tags": [
+        "beginner",
+        "basics",
+        "tutorial"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video26/300/200",
       "duration": 412,
-      "views": 45678,
-      "tags": ["beginner", "basics", "tutorial"]
+      "views": 45678
     },
     {
       "id": "v-027",
       "title": "Creating Time-lapse Videos",
-      "thumbnail_url": "https://picsum.photos/seed/video27/300/200",
       "created_at": "2025-02-03T09:54:31Z",
+      "tags": [
+        "time-lapse",
+        "creative",
+        "technique"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video27/300/200",
       "duration": 328,
-      "views": 13245,
-      "tags": ["time-lapse", "creative", "technique"]
+      "views": 13245
     },
     {
       "id": "v-028",
       "title": "Video Editing Ethics and Best Practices",
-      "thumbnail_url": "https://picsum.photos/seed/video28/300/200",
       "created_at": "2024-11-10T12:36:45Z",
+      "tags": [
+        "ethics",
+        "best practices",
+        "professional"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video28/300/200",
       "duration": 576,
-      "views": 6789,
-      "tags": ["ethics", "best practices", "professional"]
+      "views": 6789
     },
     {
       "id": "v-029",
       "title": "Creating Engaging Video Thumbnails",
-      "thumbnail_url": "https://picsum.photos/seed/video29/300/200",
       "created_at": "2025-01-08T16:23:09Z",
+      "tags": [
+        "thumbnails",
+        "clickthrough",
+        "design"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video29/300/200",
       "duration": 214,
-      "views": 19873,
-      "tags": ["thumbnails", "clickthrough", "design"]
+      "views": 19873
     },
     {
       "id": "v-030",
       "title": "Video Collaboration Workflows",
-      "thumbnail_url": "https://picsum.photos/seed/video30/300/200",
       "created_at": "2024-12-15T11:47:23Z",
+      "tags": [
+        "collaboration",
+        "workflow",
+        "team"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video30/300/200",
       "duration": 497,
-      "views": 8765,
-      "tags": ["collaboration", "workflow", "team"]
+      "views": 8765
     },
     {
       "id": "v-031",
       "title": "Creating Vertical Videos for Social Media",
-      "thumbnail_url": "https://picsum.photos/seed/video31/300/200",
       "created_at": "2025-02-18T14:12:37Z",
+      "tags": [
+        "vertical",
+        "social media",
+        "mobile-first"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video31/300/200",
       "duration": 265,
-      "views": 34567,
-      "tags": ["vertical", "social media", "mobile-first"]
+      "views": 34567
     },
     {
       "id": "v-032",
       "title": "Video Resolution Guide",
-      "thumbnail_url": "https://picsum.photos/seed/video32/300/200",
       "created_at": "2024-11-28T09:26:54Z",
+      "tags": [
+        "resolution",
+        "quality",
+        "technical"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video32/300/200",
       "duration": 318,
-      "views": 7654,
-      "tags": ["resolution", "quality", "technical"]
+      "views": 7654
     },
     {
       "id": "v-033",
       "title": "Creating Product Demo Videos",
-      "thumbnail_url": "https://picsum.photos/seed/video33/300/200",
       "created_at": "2025-01-20T13:45:19Z",
+      "tags": [
+        "product",
+        "demo",
+        "marketing"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video33/300/200",
       "duration": 492,
-      "views": 14329,
-      "tags": ["product", "demo", "marketing"]
+      "views": 14329
     },
     {
       "id": "v-034",
       "title": "Video Lighting Fundamentals",
-      "thumbnail_url": "https://picsum.photos/seed/video34/300/200",
       "created_at": "2024-12-25T16:38:42Z",
+      "tags": [
+        "lighting",
+        "production",
+        "quality"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video34/300/200",
       "duration": 589,
-      "views": 9876,
-      "tags": ["lighting", "production", "quality"]
+      "views": 9876
     },
     {
       "id": "v-035",
       "title": "Creating Branded Video Templates",
-      "thumbnail_url": "https://picsum.photos/seed/video35/300/200",
       "created_at": "2025-02-07T10:19:28Z",
+      "tags": [
+        "templates",
+        "branding",
+        "consistency"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video35/300/200",
       "duration": 356,
-      "views": 16754,
-      "tags": ["templates", "branding", "consistency"]
+      "views": 16754
     },
     {
       "id": "v-036",
       "title": "Video Analytics and Performance",
-      "thumbnail_url": "https://picsum.photos/seed/video36/300/200",
       "created_at": "2024-11-18T12:54:36Z",
+      "tags": [
+        "analytics",
+        "performance",
+        "data"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video36/300/200",
       "duration": 474,
-      "views": 8765,
-      "tags": ["analytics", "performance", "data"]
+      "views": 8765
     },
     {
       "id": "v-037",
       "title": "Creating Tutorial Videos",
-      "thumbnail_url": "https://picsum.photos/seed/video37/300/200",
       "created_at": "2025-01-27T15:36:21Z",
+      "tags": [
+        "tutorial",
+        "instructional",
+        "how-to"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video37/300/200",
       "duration": 612,
-      "views": 21345,
-      "tags": ["tutorial", "instructional", "how-to"]
+      "views": 21345
     },
     {
       "id": "v-038",
       "title": "Video Copyright and Fair Use",
-      "thumbnail_url": "https://picsum.photos/seed/video38/300/200",
       "created_at": "2024-12-10T09:47:15Z",
+      "tags": [
+        "copyright",
+        "legal",
+        "fair use"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video38/300/200",
       "duration": 528,
-      "views": 7896,
-      "tags": ["copyright", "legal", "fair use"]
+      "views": 7896
     },
     {
       "id": "v-039",
       "title": "Creating Live Stream Graphics",
-      "thumbnail_url": "https://picsum.photos/seed/video39/300/200",
       "created_at": "2025-02-14T13:28:54Z",
+      "tags": [
+        "live stream",
+        "graphics",
+        "overlays"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video39/300/200",
       "duration": 347,
-      "views": 18765,
-      "tags": ["live stream", "graphics", "overlays"]
+      "views": 18765
     },
     {
       "id": "v-040",
       "title": "Video Editing Hardware Guide",
-      "thumbnail_url": "https://picsum.photos/seed/video40/300/200",
       "created_at": "2024-11-22T16:15:37Z",
+      "tags": [
+        "hardware",
+        "equipment",
+        "performance"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video40/300/200",
       "duration": 683,
-      "views": 13456,
-      "tags": ["hardware", "equipment", "performance"]
+      "views": 13456
     },
     {
       "id": "v-041",
       "title": "Creating Stop Motion Videos",
-      "thumbnail_url": "https://picsum.photos/seed/video41/300/200",
       "created_at": "2025-01-03T11:42:19Z",
+      "tags": [
+        "stop motion",
+        "animation",
+        "creative"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video41/300/200",
       "duration": 418,
-      "views": 15678,
-      "tags": ["stop motion", "animation", "creative"]
+      "views": 15678
     },
     {
       "id": "v-042",
       "title": "Video Content Calendars",
-      "thumbnail_url": "https://picsum.photos/seed/video42/300/200",
       "created_at": "2024-12-30T14:23:48Z",
+      "tags": [
+        "planning",
+        "content calendar",
+        "strategy"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video42/300/200",
       "duration": 295,
-      "views": 9876,
-      "tags": ["planning", "content calendar", "strategy"]
+      "views": 9876
     },
     {
       "id": "v-043",
       "title": "Creating Video Portfolios",
-      "thumbnail_url": "https://picsum.photos/seed/video43/300/200",
       "created_at": "2025-02-20T09:37:26Z",
+      "tags": [
+        "portfolio",
+        "showcase",
+        "professional"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video43/300/200",
       "duration": 537,
-      "views": 12543,
-      "tags": ["portfolio", "showcase", "professional"]
+      "views": 12543
     },
     {
       "id": "v-044",
       "title": "Video Export Settings Explained",
-      "thumbnail_url": "https://picsum.photos/seed/video44/300/200",
       "created_at": "2024-11-05T13:19:42Z",
+      "tags": [
+        "export",
+        "settings",
+        "technical"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video44/300/200",
       "duration": 324,
-      "views": 8765,
-      "tags": ["export", "settings", "technical"]
+      "views": 8765
     },
     {
       "id": "v-045",
       "title": "Creating Explainer Videos",
-      "thumbnail_url": "https://picsum.photos/seed/video45/300/200",
       "created_at": "2025-01-16T16:54:33Z",
+      "tags": [
+        "explainer",
+        "educational",
+        "animation"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video45/300/200",
       "duration": 468,
-      "views": 21345,
-      "tags": ["explainer", "educational", "animation"]
+      "views": 21345
     },
     {
       "id": "v-046",
       "title": "Video Call Recording Tips",
-      "thumbnail_url": "https://picsum.photos/seed/video46/300/200",
       "created_at": "2024-12-23T10:36:18Z",
+      "tags": [
+        "video calls",
+        "recording",
+        "remote"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video46/300/200",
       "duration": 287,
-      "views": 13456,
-      "tags": ["video calls", "recording", "remote"]
+      "views": 13456
     },
     {
       "id": "v-047",
       "title": "Creating Video Presentations",
-      "thumbnail_url": "https://picsum.photos/seed/video47/300/200",
       "created_at": "2025-02-02T15:48:27Z",
+      "tags": [
+        "presentations",
+        "business",
+        "professional"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video47/300/200",
       "duration": 526,
-      "views": 17654,
-      "tags": ["presentations", "business", "professional"]
+      "views": 17654
     },
     {
       "id": "v-048",
       "title": "Video Accessibility Guidelines",
-      "thumbnail_url": "https://picsum.photos/seed/video48/300/200",
       "created_at": "2024-11-12T09:27:36Z",
+      "tags": [
+        "accessibility",
+        "inclusion",
+        "captions"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video48/300/200",
       "duration": 432,
-      "views": 7654,
-      "tags": ["accessibility", "inclusion", "captions"]
+      "views": 7654
     },
     {
       "id": "v-049",
       "title": "Creating Video Course Content",
-      "thumbnail_url": "https://picsum.photos/seed/video49/300/200",
       "created_at": "2025-01-23T13:54:19Z",
+      "tags": [
+        "courses",
+        "educational",
+        "structure"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video49/300/200",
       "duration": 675,
-      "views": 18765,
-      "tags": ["courses", "educational", "structure"]
+      "views": 18765
     },
     {
       "id": "v-050",
       "title": "Video SEO for YouTube",
-      "thumbnail_url": "https://picsum.photos/seed/video50/300/200",
       "created_at": "2024-12-18T16:37:28Z",
+      "tags": [
+        "SEO",
+        "YouTube",
+        "discoverability"
+      ],
+      "thumbnail_url": "https://picsum.photos/seed/video50/300/200",
       "duration": 524,
-      "views": 29876,
-      "tags": ["SEO", "YouTube", "discoverability"]
+      "views": 29876
+    },
+    {
+      "id": "1750613951819",
+      "title": "Prateek Video",
+      "created_at": "2025-06-22T17:39:11.819Z",
+      "tags": [
+        "movie",
+        "fun"
+      ],
+      "thumbnail_url": "https://via.placeholder.com/320x180?text=Prateek%20Video",
+      "duration": 1200,
+      "views": 0
     }
   ]
 }

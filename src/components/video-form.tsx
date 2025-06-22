@@ -34,49 +34,49 @@ export function VideoForm({ onSubmit, isLoading = false, error }: VideoFormProps
   }
 
   return (
-    <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-6">
+    <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-8">
       {error && (
-        <div className="bg-red-50 border border-red-200 rounded-md p-4">
-          <p className="text-red-800">{error}</p>
+        <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4">
+          <p className="text-red-800 dark:text-red-200">{error}</p>
         </div>
       )}
 
       <div>
-        <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
-          Title *
+        <label htmlFor="title" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+          Title <span className="text-red-500">*</span>
         </label>
         <input
           {...register('title')}
           type="text"
           id="title"
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-4 py-3 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
           placeholder="Enter video title"
           disabled={isLoading}
         />
         {errors.title && (
-          <p className="mt-1 text-sm text-red-600">{errors.title.message}</p>
+          <p className="mt-2 text-sm text-red-600 dark:text-red-400">{errors.title.message}</p>
         )}
       </div>
 
       <div>
-        <label htmlFor="thumbnail_url" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="thumbnail_url" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
           Thumbnail URL
         </label>
         <input
           {...register('thumbnail_url')}
           type="url"
           id="thumbnail_url"
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-4 py-3 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
           placeholder="https://example.com/thumbnail.jpg (optional)"
           disabled={isLoading}
         />
         {errors.thumbnail_url && (
-          <p className="mt-1 text-sm text-red-600">{errors.thumbnail_url.message}</p>
+          <p className="mt-2 text-sm text-red-600 dark:text-red-400">{errors.thumbnail_url.message}</p>
         )}
       </div>
 
       <div>
-        <label htmlFor="tags" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="tags" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
           Tags
         </label>
         <Controller
@@ -92,23 +92,23 @@ export function VideoForm({ onSubmit, isLoading = false, error }: VideoFormProps
           )}
         />
         {errors.tags && (
-          <p className="mt-1 text-sm text-red-600">{errors.tags.message}</p>
+          <p className="mt-2 text-sm text-red-600 dark:text-red-400">{errors.tags.message}</p>
         )}
       </div>
 
-      <div className="flex justify-end gap-4">
+      <div className="flex justify-end gap-4 pt-6 border-t border-gray-200 dark:border-gray-700">
         <button
           type="button"
           onClick={() => reset()}
           disabled={isLoading}
-          className="px-4 py-2 text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors disabled:opacity-50"
+          className="px-6 py-3 text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg transition-colors disabled:opacity-50 font-medium"
         >
           Reset
         </button>
         <button
           type="submit"
           disabled={isLoading}
-          className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors disabled:opacity-50 flex items-center gap-2"
+          className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors disabled:opacity-50 flex items-center gap-2 font-medium shadow-sm"
         >
           {isLoading && <LoadingSpinner size="sm" />}
           {isLoading ? 'Creating...' : 'Create Video'}
