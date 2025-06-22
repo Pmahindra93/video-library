@@ -1,3 +1,5 @@
+import { ExclamationTriangleIcon, ArrowPathIcon } from '@heroicons/react/24/outline'
+
 interface ErrorMessageProps {
   message: string
   onRetry?: () => void
@@ -5,36 +7,25 @@ interface ErrorMessageProps {
 
 export function ErrorMessage({ message, onRetry }: ErrorMessageProps) {
   return (
-    <div className="text-center py-12">
-      <div className="bg-red-50 border border-red-200 rounded-lg p-6 max-w-md mx-auto">
-        <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 bg-red-100 rounded-full">
-          <svg
-            className="w-6 h-6 text-red-600"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-            />
-          </svg>
-        </div>
-        <h3 className="text-lg font-semibold text-red-900 mb-2">
-          Something went wrong
-        </h3>
-        <p className="text-red-700 mb-4">{message}</p>
-        {onRetry && (
-          <button
-            onClick={onRetry}
-            className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors"
-          >
-            Try Again
-          </button>
-        )}
+    <div className="flex flex-col items-center justify-center p-8 text-center min-h-[50vh]">
+      <div className="mx-auto h-16 w-16 text-red-500 dark:text-red-400 mb-4">
+        <ExclamationTriangleIcon className="h-full w-full" />
       </div>
+      <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
+        Something went wrong
+      </h3>
+      <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
+        {message}
+      </p>
+      {onRetry && (
+        <button
+          onClick={onRetry}
+          className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors shadow-sm font-medium"
+        >
+          <ArrowPathIcon className="h-4 w-4" />
+          Try Again
+        </button>
+      )}
     </div>
   )
 }

@@ -1,251 +1,138 @@
 # Video Library Application
 
-A full-stack TypeScript application for browsing and managing a video library, built with Next.js 14, React, and modern web technologies.
+A modern, full-stack TypeScript video library application with dark/light theme support, built with Next.js 14 and enhanced UI components.
 
 ## 🚀 Tech Stack
 
 ### Frontend
-- **Next.js 14** with App Router - Modern React framework with built-in routing
-- **TypeScript** - Type-safe development throughout the application
-- **Tailwind CSS** - Utility-first CSS framework for responsive design
-- **React Hook Form** - Performant forms with easy validation
-- **React Query** - Data fetching, caching, and synchronization
+- **Next.js 14** with App Router - Modern React framework
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS with dark mode support
+- **Headless UI** - Accessible, unstyled UI components
+- **Heroicons** - Beautiful SVG icons
+- **next-themes** - Seamless theme management
+- **React Hook Form** - Performant forms with validation
+- **React Query (TanStack Query)** - Data fetching and caching
 - **Zod** - TypeScript-first schema validation
+- **clsx** - Conditional CSS class management
 
 ### Backend
-- **Next.js API Routes** - Serverless API endpoints built on Node.js
+- **Next.js API Routes** - Serverless API endpoints
 - **JSON File Storage** - Simple file-based data persistence
-- **Zod Validation** - Runtime type checking and API validation
+- **Zod Validation** - Runtime type checking
 
 ### Testing & Quality
-- **Jest** - JavaScript testing framework
-- **React Testing Library** - React component testing utilities
-- **TypeScript** - Compile-time type checking
+- **Jest** - Testing framework
+- **React Testing Library** - Component testing utilities
 - **ESLint** - Code linting and style enforcement
 
 ## 📋 Features
 
-### Video Library
-- **Grid Layout** - Responsive video grid with clean card design
-- **Sorting** - Sort videos by creation date (newest/oldest first)
-- **Rich Metadata** - Display title, creation date, tags, views, and duration
-- **Thumbnail Support** - Video thumbnails with duration overlay
+### Modern UI/UX
+- **🌙 Dark/Light Theme** - Toggle between themes with system preference detection
+- **📱 Responsive Design** - Mobile-first design that works on all devices
+- **✨ Smooth Animations** - Hover effects, transitions, and loading states
+- **♿ Accessibility** - Full keyboard navigation and screen reader support
+- **🎨 Modern Components** - Enhanced with Headless UI for better UX
 
-### Video Creation
-- **Form Validation** - Client and server-side validation with helpful error messages
-- **Tag Management** - Dynamic tag input with add/remove functionality
-- **Smart Defaults** - Automatic placeholder values for optional fields
-- **Error Handling** - Comprehensive error states and user feedback
+### Video Management
+- **📺 Video Grid** - Responsive grid with enhanced video cards
+- **🔍 Sorting** - Sort by creation date with elegant dropdown
+- **🏷️ Tag System** - Dynamic tag management with visual indicators
+- **⏱️ Rich Metadata** - Display duration, views, creation date with icons
+- **🖼️ Thumbnails** - Video thumbnails with hover play button overlay
 
-### User Experience
-- **Loading States** - Smooth loading indicators for all async operations
-- **Error Boundaries** - Graceful error handling with retry options
-- **Responsive Design** - Mobile-first design that works on all devices
-- **Accessibility** - Semantic HTML and proper ARIA labels
+### Form & Validation
+- **✅ Smart Validation** - Client and server-side validation
+- **💫 Real-time Feedback** - Instant error messages and form states
+- **🔄 Loading States** - Smooth loading indicators throughout
 
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-- Node.js 18+
-- npm or yarn package manager
+- **Node.js 18+**
+- **npm** or **yarn**
 
-### Installation
+### Quick Start
 
-1. **Clone the repository**
+1. **Clone and install**
    ```bash
    git clone <repository-url>
    cd video-library
-   ```
-
-2. **Install dependencies**
-   ```bash
    npm install
    ```
 
-3. **Start the development server**
+2. **Start development server**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
+3. **Open browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Available Scripts
-
 ```bash
 npm run dev      # Start development server
 npm run build    # Build for production
 npm run start    # Start production server
 npm run lint     # Run ESLint
 npm run test     # Run tests
-npm run test:watch # Run tests in watch mode
 ```
+
+## 🔮 Future Improvements
+
+### Performance & Architecture
+- **Database Migration** - Replace JSON storage with PostgreSQL/MongoDB for better scalability
+- **API Optimization** - Implement pagination, caching layer, and database indexing
+- **Image Optimization** - CDN integration for thumbnails and lazy loading
+
+
+### User Experience Polish
+- **Advanced Search** - Full-text search across titles and tags with filters
+- **Drag & Drop** - Reorder videos and bulk operations
+- **Keyboard Shortcuts** - Power user shortcuts for navigation and actions
+- **Progressive Web App** - Offline support and mobile app-like experience
+- **Video Preview** - Hover thumbnails with video preview clips
+
+### Developer Experience
+- **Enhanced Testing** - Increase coverage with integration and E2E tests
+- **CI/CD Pipeline** - Automated testing, building, and deployment
+- **Component Library** - Extract reusable components into a design system
+- **API Documentation** - Interactive API docs with Swagger/OpenAPI
+- **Performance Monitoring** - Real-time performance tracking and error reporting
+
+### Technical Refinements
+- **Type Safety** - Stricter TypeScript configuration and better error handling
+support
+- **State Management** - Consider Zustand or Redux for complex state scenarios
 
 ## 🏗️ Project Structure
 
 ```
 video-library/
 ├── src/
-│   ├── app/                    # Next.js App Router pages
+│   ├── app/                    # Next.js App Router
 │   │   ├── api/videos/         # API endpoints
-│   │   ├── create/             # Create video page
-│   │   ├── globals.css         # Global styles
-│   │   ├── layout.tsx          # Root layout
-│   │   ├── page.tsx            # Home page
-│   │   └── providers.tsx       # React Query provider
-│   ├── components/             # Reusable UI components
-│   │   ├── error-message.tsx   # Error state component
-│   │   ├── loading-spinner.tsx # Loading state component
-│   │   ├── sort-controls.tsx   # Video sorting controls
-│   │   ├── tag-input.tsx       # Dynamic tag input
-│   │   ├── video-card.tsx      # Video display card
-│   │   ├── video-form.tsx      # Video creation form
-│   │   └── video-grid.tsx      # Video grid layout
-│   ├── hooks/                  # Custom React hooks
-│   │   └── use-videos.ts       # Video data management
+│   │   └── create/             # Create video page
+│   ├── components/             # UI components
+│   │   ├── theme-provider.tsx  # Theme context provider
+│   │   ├── theme-toggle.tsx    # Dark/light mode toggle
+│   │   ├── video-card.tsx      # Enhanced video cards
+│   │   └── sort-controls.tsx   # Headless UI dropdown
+│   ├── hooks/                  # React hooks
 │   ├── lib/                    # Utilities and services
-│   │   ├── api-client.ts       # Frontend API client
-│   │   ├── schemas.ts          # Zod schemas and types
-│   │   ├── utils.ts            # Helper functions
-│   │   └── video-service.ts    # Backend video service
 │   └── __tests__/              # Test files
-├── data/
-│   └── videos.json             # Video data storage
-├── public/                     # Static assets
-└── [config files]              # TypeScript, Tailwind, Jest configs
+├── data/videos.json            # Video data storage
+└── [config files]             # TypeScript, Tailwind, Jest
 ```
 
-## 🧪 Testing Strategy
+## 🎨 Theme Support
 
-The application includes focused testing on critical functionality:
+The application includes comprehensive dark/light theme support:
+- **Automatic Detection** - Follows system preference by default
+- **Manual Toggle** - Sun/moon button in header for instant switching
+- **Persistent Choice** - Theme preference saved across sessions
+- **Complete Coverage** - All components styled for both themes
 
-### API Testing
-- Endpoint validation and error handling
-- Request/response data validation
-- Error state handling
+---
 
-### Component Testing
-- User interactions and form validation
-- Data display and formatting
-- Loading and error states
-
-### Utility Testing
-- Data formatting functions
-- Helper utilities
-
-Run tests with:
-```bash
-npm test                 # Run all tests
-npm run test:watch      # Run tests in watch mode
-```
-
-## 🔄 API Documentation
-
-### GET /api/videos
-Retrieve all videos with optional sorting.
-
-**Query Parameters:**
-- `sort` (optional): `created_at_asc` | `created_at_desc`
-
-**Response:**
-```typescript
-{
-  success: true,
-  data: Video[]
-}
-```
-
-### POST /api/videos
-Create a new video.
-
-**Request Body:**
-```typescript
-{
-  title: string,              // Required
-  tags?: string[],           // Optional
-  thumbnail_url?: string,    // Optional, must be valid URL
-  created_at?: string,       // Optional, defaults to now
-  duration?: number,         // Optional, defaults to 1200
-  views?: number            // Optional, defaults to 0
-}
-```
-
-**Response:**
-```typescript
-{
-  success: true,
-  data: Video
-}
-```
-
-## 🚀 Future Improvements
-
-### Performance & Scalability
-- **Database Integration** - Replace JSON file storage with PostgreSQL or MongoDB for better performance and concurrent access
-- **Pagination** - Implement pagination for large video collections
-- **Caching** - Add Redis caching layer for frequently accessed data
-- **CDN Integration** - Serve thumbnails and static assets from a CDN
-
-### Enhanced Features
-- **Video Upload** - Direct video file upload with encoding pipeline
-- **Advanced Search** - Full-text search across titles, descriptions, and tags
-- **Filtering** - Filter videos by tags, duration, view count, and date ranges
-- **Video Player** - Integrated video player with playback controls
-- **User Authentication** - User accounts with personalized libraries
-- **Playlists** - Create and manage custom video playlists
-
-### Developer Experience
-- **Comprehensive Testing** - Increase test coverage to 90%+ with integration and e2e tests
-- **CI/CD Pipeline** - Automated testing, building, and deployment
-- **Monitoring** - Application performance monitoring and error tracking
-- **Documentation** - Interactive API documentation with Swagger/OpenAPI
-- **Code Quality** - Additional linting rules and automated code formatting
-
-### User Experience
-- **Dark Mode** - Toggle between light and dark themes
-- **Keyboard Navigation** - Full keyboard accessibility support
-- **Drag & Drop** - Drag and drop video organization
-- **Bulk Operations** - Select and manage multiple videos at once
-- **Video Analytics** - Track video performance and engagement metrics
-
-### Technical Improvements
-- **Server-Side Rendering** - Optimize SEO and initial page load times
-- **Real-time Updates** - WebSocket support for live data updates
-- **Offline Support** - Progressive Web App with offline functionality
-- **Performance Optimization** - Image optimization, lazy loading, and code splitting
-- **Security Hardening** - Rate limiting, input sanitization, and security headers
-
-## 📝 Architecture Decisions
-
-### Why Next.js with App Router?
-- **Full-stack in one project** - Simplified development and deployment
-- **Type safety** - Excellent TypeScript support throughout
-- **Modern React patterns** - Server components and app directory structure
-- **Built-in optimizations** - Image optimization, bundle splitting, and more
-
-### Why JSON File Storage?
-- **Simplicity** - No database setup required for this demonstration
-- **Portability** - Easy to understand and modify
-- **Version Control** - Data changes are trackable in git
-
-### Why React Query?
-- **Caching** - Intelligent data caching and synchronization
-- **Loading States** - Built-in loading and error state management
-- **Optimistic Updates** - Better user experience with instant feedback
-
-### Why Zod?
-- **Type Safety** - Runtime validation that matches TypeScript types
-- **Reusability** - Same schemas work for frontend and backend validation
-- **Developer Experience** - Clear error messages and excellent TypeScript integration
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is created for demonstration purposes. Feel free to use and modify as needed.
